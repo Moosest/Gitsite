@@ -8,7 +8,7 @@ async function download() {
         const json = await response.json()
         const number = json.number
         const text = json.text
-        element.innerHTML += "<p class='box'>" + number + " :  <br> " + text + "</p>"
+        element.innerHTML += "<p class='box'>" + number + " : <br> <br> " + text + "</p>"
     }
 }
 download();
